@@ -6,3 +6,4 @@ create a 2d grid interrface where chess pieces appear on random squares with the
 the biggest part of the projet will be to create the menu interface where the player can personnalise in depth :
 Parameters to enable customisation on:
 Board size, Number of pieces on lvl 1, increase/decrease of pieces on lvl success/fail, numbers of diff pieces, time before pieces dissapear. time between disapearance and solution delivery
+(use lichess.org coding if possible)
