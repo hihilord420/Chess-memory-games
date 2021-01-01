@@ -10,7 +10,7 @@ Memory game inspired by [memory match for iphone](https://apps.apple.com/ca/app/
 * increase/decrease of pieces on success/fail
 * numbers of different pieces
 * time before pieces disappear
-* time between disappearance and solution delivery (use lichess.org coding if possible)
+* time between disappearance and solution reveal
 
 ## Original README
 The program works by having two decks: a visual deck and a hidden one. Upon game start, the visual deck holds the backsides of all the cards, and the hidden deck holds all the card faces. As the user finds matches, the two matching card faces from the hidden deck replace the card backs of the visual deck, thereby making them permanently visual. By the end of the game, the hidden deck has become the visual deck - all card faces are shown. When the user restarts the game, the visual deck is reset to the card backs, and a new, randomized hidden deck is created.
