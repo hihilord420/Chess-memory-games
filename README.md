@@ -1,5 +1,5 @@
 # Chess Memory Match
-Memory game inspired by [memory match for iphone](https://apps.apple.com/ca/app/memory-match-brain-training-memory-games/id1172020731). Projet description: create a 2d grid interrface where chess pieces appear on random squares with the number of pieces increasing when sucessfull and decrease when failing lvl.
+Memory game inspired by [memory match for iphone](https://apps.apple.com/ca/app/memory-match-brain-training-memory-games/id1172020731). Memorize the location of chess pieces in a grid.
 
 ## Roadmap
 
@@ -10,7 +10,7 @@ Memory game inspired by [memory match for iphone](https://apps.apple.com/ca/app/
 * increase/decrease of pieces on success/fail
 * numbers of different pieces
 * time before pieces disappear
-* time between disappearance and solution reveal
+* time until solution reveal
 
 ## Original README
 The program works by having two decks: a visual deck and a hidden one. Upon game start, the visual deck holds the backsides of all the cards, and the hidden deck holds all the card faces. As the user finds matches, the two matching card faces from the hidden deck replace the card backs of the visual deck, thereby making them permanently visual. By the end of the game, the hidden deck has become the visual deck - all card faces are shown. When the user restarts the game, the visual deck is reset to the card backs, and a new, randomized hidden deck is created.
